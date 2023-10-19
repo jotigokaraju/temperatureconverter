@@ -80,8 +80,8 @@ if st.button("Convert!", type="primary"):
     st.divider()
     
     #Print Results
-    #st.write(start_temp, "Degrees", start_type, "is", converted_temp, "Degrees", conversion_type)
-    st.header(f"{start_temp} Degrees {start_type} is {converted_temp} Degrees" {conversion_type})
+    st.write(start_temp, "Degrees", start_type, "is", converted_temp, "Degrees", conversion_type)
+
     
 
 
