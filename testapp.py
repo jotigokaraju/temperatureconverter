@@ -79,8 +79,9 @@ if st.button("Convert!", type="primary"):
     #Divider
     st.divider()
     
-    #Print Results as an F-String
-    st.write(start_temp, "Degrees", start_type, "is", converted_temp, "Degrees", conversion_type)
+    #Print Results
+    #st.write(start_temp, "Degrees", start_type, "is", converted_temp, "Degrees", conversion_type)
+    st.header(f"{start_temp} Degrees {start_type} is {converted_temp} Degrees" {conversion_type})
     
 
 
