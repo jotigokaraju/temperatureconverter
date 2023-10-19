@@ -51,7 +51,7 @@ def convert(start_type, start_temp, conversion_type):
     
 #Selectbox Variable to Determine Starting Temperature
 start_type = st.selectbox(
-    "What is the Starting Temperature?",
+    "What is the Starting Temperature Unit?",
    ("Celsius", "Farenheit", "Kelvin"),
    index=None,
    placeholder="Select Starting Temperature...")
@@ -65,7 +65,7 @@ st.write("You Entered:", start_temp)
 
 #Selectbox Variable to Determine Conversion Temperature
 conversion_type = st.selectbox(
-   "What is the Conversion Temperature?",
+   "What is the Conversion Temperature Unit?",
    ("Celsius", "Farenheit", "Kelvin"),
    index=None,
    placeholder="Select Conversion Temperature...")
